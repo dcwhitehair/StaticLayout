@@ -1,0 +1,161 @@
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  position: absolute;
+  top: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+  padding: 2px 35px;
+  box-sizing: border-box;
+  width: 100vw;
+  z-index: 1; 
+}
+
+#brand {
+  height: 100%;
+  flex: 1 1 auto;
+}
+
+#brand img {
+  height: 100%;
+}
+
+#brand img:hover{
+  transform: scale(1.2);
+}
+
+.navbar2 ul {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  color: white;
+  list-style-type: none;
+}
+
+.navbar2 ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar2 ul li:nth-child(4):hover{
+  border-bottom: 2px solid white;
+}
+
+.navbar2 ul li:last-child {
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #531f62;
+  background: url("./assets/gradient-violet-bg.jpg"); 
+  width: 100vw;
+  height: 90vh;
+  background-color:  #531F62;
+  background-size: cover;
+  padding-top: 76px;
+  color: white;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+#hero img {
+  width: 35vw;
+  
+}
+
+#hero h3 {
+  width: 40%;
+  text-align: center;
+  font-weight: lighter;
+
+}
+
+#hero a {
+  background-color: #fe9000;
+  border: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: border 250ms ease;
+}
+
+
+#hero a:hover{
+  border: 2px solid #fe9000;
+}
+
+.featured-main-content{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  padding: 50px 0px;
+  color: #434416;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.business-logos img{
+  margin: 35px;
+}
+
+.actual-quote{
+  font-style: italic;
+}
+
+.yahoo-quoted{
+  text-align: right;
+}
+
+.dwarf{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  background: url("./assets/green-bg.jpg"); 
+  color: white;
+  text-align: center;
+  padding: 50px 0px;
+  min-height: 30vh;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.dwarf a{
+  background-color: #fe9000;
+  border: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: border 250ms ease;
+
+}
+
+.dwarf a:hover{
+  border: 2px solid #fe9000;
+}
