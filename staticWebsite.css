@@ -9,9 +9,11 @@ header {
   top: 0;
 }
 
-body {
+body, html {
   margin: 0;
+  padding: 0;
 }
+
 
 .navbar2 {
   display: flex;
@@ -80,15 +82,19 @@ body {
 }
 
 #hero img {
-  width: 35vw;
-  
+  width: 35vw; 
+}
+
+#hero h1{
+  font-size: 48px;
+  font-weight: 400;
 }
 
 #hero h3 {
   width: 40%;
   text-align: center;
   font-weight: lighter;
-
+  font-size: 20px;
 }
 
 #hero a {
@@ -130,7 +136,7 @@ body {
   text-align: right;
 }
 
-.dwarf{
+.bottom-section{
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -138,13 +144,21 @@ body {
   background: url("./assets/green-bg.jpg"); 
   color: white;
   text-align: center;
-  padding: 50px 0px;
-  min-height: 30vh;
+  padding: 100px 0px;
+  min-height: 60vh;
   justify-content: space-between;
   box-sizing: border-box;
 }
 
-.dwarf a{
+.bottom-section h1{
+  font-size: 48px;
+}
+
+.bottom-section h3{
+  font-weight: lighter;
+  font-size: 20px;
+}
+.bottom-section a{
   background-color: #fe9000;
   border: 1px solid transparent;
   color: white;
@@ -156,6 +170,6 @@ body {
 
 }
 
-.dwarf a:hover{
+.bottom-section a:hover{
   border: 2px solid #fe9000;
 }
