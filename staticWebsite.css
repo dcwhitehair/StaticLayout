@@ -14,6 +14,7 @@ body, html {
   padding: 0;
 }
 
+/* Nav Bar styling*/
 
 .navbar2 {
   display: flex;
@@ -27,6 +28,8 @@ body, html {
   z-index: 1; 
 }
 
+/* Kast Logo */
+
 #brand {
   height: 100%;
   flex: 1 1 auto;
@@ -39,6 +42,7 @@ body, html {
 #brand img:hover{
   transform: scale(1.2);
 }
+
 
 .navbar2 ul {
   display: flex;
@@ -64,6 +68,8 @@ body, html {
   border: 1px solid white;
   text-transform: uppercase;
 }
+
+/* Top Section Background */
 
 #hero {
   display: flex;
@@ -113,6 +119,8 @@ body, html {
   border: 2px solid #fe9000;
 }
 
+/* Company reviews section */
+
 .featured-main-content{
   display: flex;
   flex-direction: column;
@@ -135,6 +143,8 @@ body, html {
 .yahoo-quoted{
   text-align: right;
 }
+
+/* Bottom section styling */
 
 .bottom-section{
   display: flex;
